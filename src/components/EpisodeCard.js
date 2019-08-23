@@ -14,9 +14,10 @@ export default function EpisodeCard (props) {
 
 <img  src={props.image} />
 <Card.Content header={props.name} />
-    
-    <Card.Content header={props.air_date} />
-    <Card.Content header={props.episode} />
+<h3>Air date:  {props.air_date}</h3>
+
+    <h3>Episode:  {props.episode}</h3>
+  
     
    </Card>
 

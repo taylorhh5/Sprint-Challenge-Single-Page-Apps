@@ -14,9 +14,12 @@ export default function LocationCard(props) {
 
 <img  src={props.image} />
 <Card.Content header={props.name} />
-    <Card.Content header={props.type} />
-    <Card.Content header={props.dimension} />
-    <Card.Content header={props.residents} />
+<h3>Type: {props.type}</h3>
+    
+    <h3>Dimension: {props.dimension}</h3>
+
+    <h3>Residents: {props.residents.length}</h3>
+    
     
    </Card>
 

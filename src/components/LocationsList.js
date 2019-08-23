@@ -23,9 +23,10 @@ export default function LocationsList() {
       {epiList.map(character => (
         <LocationCard
           key={character.name}
+          name={character.name}
           type={character.type}
           dimension={character.dimension}
-          
+         residents={character.residents}
          
         />
 

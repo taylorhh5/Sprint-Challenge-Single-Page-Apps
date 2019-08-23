@@ -14,10 +14,13 @@ export default function CharacterCard(props) {
 
 <img  src={props.image} />
 <Card.Content header={props.name} />
-    <Card.Content header={props.status} />
-    <Card.Content header={props.species} />
-    <Card.Content header={props.gender} />
-    <Card.Content header={props.type} />
+<h3>Status:{props.status}</h3>
+    
+    <h3>Species:{props.species}</h3>
+  
+    <h3>Gender:{props.gender}</h3>
+    
+    
    </Card>
 
 
