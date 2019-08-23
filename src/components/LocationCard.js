@@ -11,8 +11,8 @@ export default function LocationCard(props) {
 
   <div className="loc-card "key={props.name}>
 <Card>
+<h1>Location:</h1>
 
-<img  src={props.image} />
 <Card.Content header={props.name} />
 <h3>Type: {props.type}</h3>
     
