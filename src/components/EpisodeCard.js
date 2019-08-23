@@ -4,22 +4,20 @@ import 'semantic-ui-css/semantic.min.css';
 import { Image } from 'semantic-ui-react'
 
 
-export default function LocationCard(props) {
+export default function EpisodeCard (props) {
 
 
   return(
 
-  <div className="loc-card "key={props.name}>
+  <div className="epi-card "key={props.name}>
 <Card>
-<h1>Location:</h1>
 
+<img  src={props.image} />
 <Card.Content header={props.name} />
-<h3>Type: {props.type}</h3>
-    
-    <h3>Dimension: {props.dimension}</h3>
+<h3>Air date:  {props.air_date}</h3>
 
-    <h3>Residents: {props.residents.length}</h3>
-    
+    <h3>Episode:  {props.episode}</h3>
+  
     
    </Card>
 
